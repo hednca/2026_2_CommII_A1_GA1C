@@ -234,7 +234,7 @@ class Implementacion_Bloque_Promedios_De_Tiempos(gr.top_block, Qt.QWidget):
         self._qtgui_number_sink_0_win = sip.wrapinstance(self.qtgui_number_sink_0.qwidget(), Qt.QWidget)
         self.top_layout.addWidget(self._qtgui_number_sink_0_win)
         self.epy_block_0 = epy_block_0.blk()
-        self.blocks_vector_source_x_0 = blocks.vector_source_f((1, 2, -1), True, 1, [])
+        self.blocks_vector_source_x_0 = blocks.vector_source_f((3, 8, 1, 6, 10, 2, 7, 4, 9, 5), True, 1, [])
 
 
         ##################################################
